@@ -1,5 +1,12 @@
+import Header from "./components/Header";
+import Content from "./components/Content";
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <Header />
+      <Content />
+    </>
+  );
 };
 
 export default App;
